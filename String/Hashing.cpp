@@ -18,9 +18,7 @@ class Hash{
             int H1 = ((ll)prefixHash[i].first*B1)%M + (s[i] - 'a');
             int H2 = ((ll)prefixHash[i].second*B2)%M + (s[i] - 'a');
             prefixHash[i+1] = {H1, H2};
-            cout<<H1<<" "<<H2<<endl; 
         }
-        
     }
     
     public:
